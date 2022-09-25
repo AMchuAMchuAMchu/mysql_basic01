@@ -40,6 +40,7 @@ use anime_test01;
 select  * from animeinfo;
 
 
+select version();
 
 
 
