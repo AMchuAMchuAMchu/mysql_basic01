@@ -42,10 +42,15 @@ select  * from animeinfo;
 
 select version();
 
+use mysql;
 
 
+show tables ;
 
+desc user;
 
+select User,Host
+from user;
 
 
 
