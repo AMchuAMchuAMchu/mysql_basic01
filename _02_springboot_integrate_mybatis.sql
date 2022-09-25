@@ -33,6 +33,13 @@ select * from animeinfo;
 
 select database();
 
+show databases ;
+
+use anime_test01;
+
+select  * from animeinfo;
+
+
 
 
 
