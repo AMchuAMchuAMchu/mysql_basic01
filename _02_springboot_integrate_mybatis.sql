@@ -53,5 +53,35 @@ select User,Host
 from user;
 
 
+show databases ;
+
+
+use anime_test01;
+
+
+show tables ;
+
+rename table animeinfo to   anime_info;
+
+
+
+alter table anime_info change releaseTime release_time int;
+
+
+
+select * from anime_info;
+
+
+insert into anime_info values
+("来自深渊",2022,"莉可","雷格"),
+("食锈末世录",2022,"赤星比斯可","猫柳美禄"),
+("黑岩射手",2012,"黑衣麻陶","神主由宇"),
+("尸鬼",2010,"尾崎敏夫","清水惠"),
+("金装的维尔梅",2022,"维尔梅","阿鲁特");
+
+
+
+
+
 
 
