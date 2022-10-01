@@ -80,8 +80,11 @@ insert into anime_info values
 ("金装的维尔梅",2022,"维尔梅","阿鲁特");
 
 
+desc anime_info;
 
+alter table anime_info add column id int auto_increment primary key ;
 
+select * from anime_info;
 
 
 
