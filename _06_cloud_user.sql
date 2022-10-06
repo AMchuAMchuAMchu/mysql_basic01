@@ -38,5 +38,4 @@ INSERT INTO `tb_user` VALUES (3, '华沉鱼', '湖北省十堰市');
 INSERT INTO `tb_user` VALUES (4, '张必沉', '天津市');
 INSERT INTO `tb_user` VALUES (5, '郑爽爽', '辽宁省沈阳市大东区');
 INSERT INTO `tb_user` VALUES (6, '范兵兵', '山东省青岛市');
-
 SET FOREIGN_KEY_CHECKS = 1;
