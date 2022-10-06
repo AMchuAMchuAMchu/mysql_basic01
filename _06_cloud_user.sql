@@ -14,6 +14,10 @@
  Date: 01/04/2021 14:57:18
 */
 
+create database if not exists cloud_user;
+
+use cloud_user;
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
