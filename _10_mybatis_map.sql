@@ -14,8 +14,9 @@ alter table anime_infoinfo rename to anime_info;
 
 desc anime_info;
 
+use anime_test01;
 
-
+delete from anime_info where id = 914288639;
 
 
 
